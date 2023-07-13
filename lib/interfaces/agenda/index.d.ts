@@ -8,7 +8,7 @@
 /// <reference types="node" />
 
 import { EventEmitter } from "events";
-import { Db, Collection, ObjectID } from "mongodb";
+import { Db, Collection, ObjectId } from "mongodb";
 
 export = Agenda;
 
@@ -240,7 +240,7 @@ declare namespace Agenda {
         /**
          * The record identity.
          */
-        _id: ObjectID;
+        _id: ObjectId;
 
         /**
          * The name of the job.
