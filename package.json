@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-agenda",
+  "name": "zikazama-nestjs-agenda",
   "version": "2.0.0",
   "description": "agenda for nest.js",
   "main": "dist/index.js",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hanFengSan/nestjs-agenda.git"
+    "url": "git://git@github.com:fauzif19/nestjs-agenda.git"
   },
   "keywords": [
     "nestjs",
     "agenda"
   ],
-  "author": "Alex Chen",
+  "author": "Fauzi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hanFengSan/nestjs-agenda/issues"
@@ -24,7 +24,6 @@
   "dependencies": {
     "@nestjs/common": "^6.6.7",
     "@nestjs/core": "^6.6.7",
-    "@types/agenda": "^2.0.5",
     "agenda": "^3.1.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.3"

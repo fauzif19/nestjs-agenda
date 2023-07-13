@@ -1,0 +1,32 @@
+{
+    "name": "@types/agenda",
+    "version": "2.0.5",
+    "description": "TypeScript definitions for Agenda",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Meir Gottlieb",
+            "url": "https://github.com/meirgottlieb",
+            "githubUsername": "meirgottlieb"
+        },
+        {
+            "name": "Jeff Principe",
+            "url": "https://github.com/princjef",
+            "githubUsername": "princjef"
+        }
+    ],
+    "main": "",
+    "types": "index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/agenda"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/mongodb": "*",
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "e03ad0e419f51e140b07020b8239b5e69fba2398633c2fe693f95a34b5ec08f5",
+    "typeScriptVersion": "2.8"
+}

@@ -1,5 +1,5 @@
 import { ModuleMetadata, Type } from '@nestjs/common/interfaces';
-import * as Agenda from 'agenda';
+import * as Agenda from './agenda';
 
 export interface AgendaModuleOptions extends Agenda.AgendaConfiguration {}
 
